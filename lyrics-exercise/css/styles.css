@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap');
+
+h1{
+    font-family:IM Fell DW Pica;
+    font-weight:bolder;
+    font-size: 20px;
+    width: 40%;
+    margin: auto;
+    text-indent:-130px;
+}
+
+h2 {
+    font-family:IM Fell DW Pica;
+    font-style: oblique;
+    font-weight:lighter;
+    font-size: 20px;
+    width: 40%;
+    margin: auto;
+    text-indent:-132px;
+    letter-spacing:2px ;
+}
+
+body{
+    font-family:IM Fell DW Pica;
+    color:rgb(51, 88, 62);
+    animation-name: backgroundColor;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear; 
+}
+
+@keyframes backgroundColor {
+	0% {
+		background: rgb(187, 214, 179);
+	}
+	25% {
+		background: rgb(179, 214, 191);
+	}
+	50% {
+		background: rgb(179, 214, 200);
+	}
+	75% {
+		background: rgb(179, 209, 214);
+	}
+	100% {
+		background: rgb(179, 190, 214);
+	}
+}
+
+p{
+    width: 40%;
+    margin: auto;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.link{
+    font-weight:lighter;
+    font-style:oblique;
+    color:rgb(218, 230, 220);
+}
+
+.ooh{
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+.outro{
+    font-style: italic;
+}
+
+.name{
+    font-weight:bolder;
+    font-size: 12px;
+    color:rgb(91, 158, 111);
+}
+
+#one{
+    text-indent:30px;
+    margin-top:-15px;
+}
+
+#two{
+    text-indent:60px;
+    margin-top:-15px;
+}
+
+#three{
+    text-indent:90px;
+    margin-top:-15px;
+}
+
+#four{
+    text-indent:120px;
+    margin-top:-15px;
+}
+
+#five{
+    text-indent:150px;
+    margin-top:-15px;
+}
+
