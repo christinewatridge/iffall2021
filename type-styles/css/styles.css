@@ -1,0 +1,94 @@
+h1{
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+    font-weight:700;
+    font-size: 30pt;
+    color:rgb(189, 95, 95);
+}
+
+h2{
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+    font-weight:400;
+    font-size: 15pt;
+    font-style: italic;
+    margin-bottom: -15pt;
+    color:rosybrown;
+}
+
+body{
+    margin: 10%;
+}
+
+div{
+    font-size: 20pt;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    margin-bottom: 10pt;
+    margin-top: 5pt;
+}
+
+code{
+    text-indent: 50pt;
+    color:rosybrown;
+}
+
+.five{
+    font-weight: 500;
+}
+
+.lighter{
+    font-weight:lighter;
+}
+
+.eight{
+    font-weight: 800;
+}
+
+.italic{
+    font-style:italic;
+}
+
+.oblique{
+    font-style:oblique;
+}
+
+.initial{
+    font-style:initial;
+}
+
+.point{
+    letter-spacing: 5pts;
+}
+
+.pixel{
+    letter-spacing: 20px;
+}
+
+.rem{
+    letter-spacing:5rem;
+}
+
+.caps{
+    text-transform: capitalize;
+}
+
+.lower{
+    text-transform:lowercase;
+}
+
+.upper{
+    text-transform:uppercase;
+}
+
+.underline{
+    text-decoration:underline;
+}
+
+.strike{
+    text-decoration:line-through;
+}
+
+.none{
+    text-decoration:none;
+}
