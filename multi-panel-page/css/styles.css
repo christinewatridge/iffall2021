@@ -1,0 +1,150 @@
+body{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+.content{
+    width: 960px;
+    margin:auto;
+}
+
+h2{
+    margin:0;
+    margin-top: -3px;
+    font-size: 30px;
+    color: white;
+}
+
+p{
+    font-size: 18px;
+}
+
+header{
+    text-align: center;
+    background-image: url(../images/headerbackground.jpeg);
+    background-size: 100%;
+}
+
+header .content{
+    padding: 152px 0 180px 0;
+}
+
+header h1{
+    font-size: 80px;
+    margin-top: 0px;
+}
+
+section .content{
+    padding: 5px 0 72px 0;
+}
+
+section h1{
+    font-size: 40px;
+    margin-top: 39px;
+    color: white;
+}
+
+.first{
+    background-color:rgba(0, 0, 0, 1);
+}
+
+.image-float-right{
+    float:right;
+    width: 400px;
+    height:300px;
+    margin-top: 34px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+section p{
+    margin-top: 34px;
+    margin-bottom: -17px;
+    color: white;
+}
+
+.first img{
+    border:solid 2px white;
+}
+
+ul p{
+    font-size: 18px;
+    color:white;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0;
+    margin-bottom: -33px;
+}
+
+li{
+    display: block;
+    margin-bottom: 21px;
+    margin-top: -2px;
+}
+
+h3{
+    margin:0;
+    font-size: 20px;
+    color: white;
+}
+
+li p{
+    margin:0;
+    margin-top: 5px;
+}
+
+.third{
+    margin: 36px;
+}
+
+.caption{
+    margin-left: -27px;;
+    margin-right: 25px;
+}
+
+p.caption{
+    margin-top: 3px;
+}
+
+#second{
+    background-color: rgb(87, 87, 87);
+    padding:0;
+}
+
+h4{
+    font-size: 25px;
+    text-align: center;
+    font-weight:500;
+    line-height: 36.1px;
+    letter-spacing: .19px;
+    margin-left: 126px;
+    margin-right: 126px;
+    margin-top: -2px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.fourth{
+    margin: 34px;
+}
+
+.last{
+    background-image: url(../images/headerbackground.jpeg);
+    background-size: 100%;
+}
+
+copyright{
+    font-size: 18px;
+}
+
+footer{
+    margin-top: 40px;
+}
