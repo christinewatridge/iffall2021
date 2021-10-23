@@ -1,0 +1,343 @@
+body{
+    margin: 0px;
+}
+
+.row {
+    display: flex;
+}
+
+.left{
+    background-color: rgb(224, 166, 100);
+    width: 15%;
+}
+
+.middle{
+    width: 70%;
+}
+
+.right{
+    width: 15%;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    margin: 0;
+    font-family: roc-grotesk-wide, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: right;
+}
+
+p{
+    margin: 0;
+    font-family:adobe-caslon-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12pt;
+    color:rgb(99, 58, 20);
+    line-height: 15pt;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.heading{
+    position:absolute;
+    bottom: 25%;
+    right: 1%;
+    font-size: 40pt;
+    line-height: 50px;
+}
+
+.subhead{
+    position: absolute;
+    bottom: 10%;
+    right: 1%;
+    color: rgb(179, 126, 65);
+    font-size: 18pt;
+}
+
+div{
+    width: 25%;
+    padding: 0 2% 0 2%;
+    border-right: 1px solid rgb(224, 166, 100);
+}
+
+content{
+    width: 75%;
+    padding: 0 0% 0 2%;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    margin-bottom:-30px;
+}
+
+li{
+    margin-bottom:5%;
+    font-family:adobe-caslon-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12pt;
+    color:rgb(99, 58, 20);
+    line-height: 15pt;
+}
+
+h2{
+    text-align: center;
+    font-family: roc-grotesk-wide, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1px;
+    color:rgb(99, 58, 20);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding:0;
+}
+
+h4{
+    text-align:center;
+    font-family: roc-grotesk-wide, sans-serif;
+    font-weight:bold;
+    font-style:normal;
+    color:rgb(99, 58, 20);
+    font-size: 40pt;
+    line-height: 0pt;
+    text-indent: -25%;
+}
+
+photos{
+    margin-left: 5%;
+    max-width: 40%;
+}
+
+photos img{
+    margin-top: 20px;
+}
+
+intro p:nth-child(1)::first-letter {
+    float: left;
+    line-height: 47pt;
+    font-size: 47px;
+    padding-right: .25%;
+    margin-right: 5px;
+    margin-bottom: -30px;  
+  }
+
+h6{
+    font-family:adobe-caslon-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 10pt;
+    line-height: 11pt;
+    color:rgb(99, 58, 20);
+}
+
+intro p{
+    font-size: 15pt;
+    line-height: 18pt;
+}
+
+.times{
+    position: relative;
+    text-align: center;
+}
+
+.prep{
+    position:absolute;
+    top: 15%;
+    left:5%;
+}
+
+.yield{
+    position:absolute;
+    top: 30%;
+    right:1%;
+}
+
+.cook{
+    position:absolute;
+    bottom: 15%;
+    right: 50%;
+}
+
+ingredients h6{
+    margin-top: 50px;
+}
+
+content h6{
+    margin-left: 18%;
+}
+
+photos-responsive img{
+    margin-top: 10px;
+}
+
+ingredients-responsive ul{
+    margin-bottom: -20px;
+}
+
+ingredients-responsive li{
+    margin-bottom: 1%;
+}
+
+/*media starts here going in descending order of screen width*/
+
+@media (max-width: 1180px) {
+    .times h2{ 
+        font-size: 16pt; 
+    }
+}
+
+@media (max-width: 1140px) {
+    ingredients h2{ 
+        font-size: 14pt; 
+    }
+}
+
+@media (max-width: 1060px) {
+    .times h2{ 
+        font-size: 14pt; 
+    }
+}
+
+@media (max-width: 935px) {
+    .times h2{ 
+        font-size: 12pt; 
+    }
+    ingredients h2{ 
+        font-size: 12pt; 
+    }
+}
+
+@media (max-width: 810px) {
+    .times h2{ 
+        font-size: 10pt; 
+    }
+    photos{
+        display:none;
+    }
+    content h6{
+        margin-left:0;
+    }
+    ingredients h2{ 
+        font-size: 10pt; 
+    }
+}
+
+@media (min-width:810px){
+    photos-responsive{
+        display:none;
+    }
+}
+
+@media (max-width: 710px) {
+    .heading{ 
+        font-size: 30pt; 
+    }
+    div{
+        display: none;
+    }
+    content{
+        width: 100%;
+        padding: 0 0% 0 2%;
+    }
+    instructions h4{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        text-indent: 0;
+    }
+    ul{
+        margin-bottom: .25%;
+    }
+    .left{
+        display:none;
+    }
+    .right{
+        display: none;
+    }
+    .row{
+        display: inline;
+    }
+    body{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .times h2{ 
+        font-size: 16pt; 
+    }
+    content h6{
+        margin-bottom: 0;
+    }
+    
+}
+
+@media (min-width:711px){
+    ingredients-responsive{
+        display:none;
+    }
+}
+@media (max-width:570px){
+    .times h2{ 
+        font-size: 14pt; 
+    }
+    .times .prep{
+        top:5%;
+    }
+    .times .yield{
+        top:30%;
+    }
+    .times .cook{
+        bottom:10%;
+        right:30%;
+    }
+    .grid{
+        grid-template-columns: 1fr 3fr;
+    }
+}
+
+@media (max-width:420px){
+    .heading{
+        font-size: 25pt;
+        line-height: 28pt;
+    }
+    .subhead{
+        font-size: 15pt;
+    }
+}
+
+@media (max-width:375px){
+    .times h2{ 
+        font-size: 12pt; 
+    }
+    .times .prep{
+        top:5%;
+    }
+    .times .yield{
+        top:25%;
+    }
+    .times .cook{
+        bottom:10%;
+        right:30%;
+    }
+}
+
+@media (max-width:340px){
+    .heading{
+        font-size: 20pt;
+        line-height: 24pt;
+    }
+    .subhead{
+        font-size: 12pt;
+    }
+}
