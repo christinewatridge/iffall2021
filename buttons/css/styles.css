@@ -1,0 +1,777 @@
+a{
+    text-decoration: none;
+}
+
+/* coca cola */
+
+#btn_cocacola{
+    font-family: 'Gotham SSm A', 'Gotham SSm B', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: block;
+	width: 175px;
+	height: 50px;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 90px;
+	padding-top: 17px;
+	background-color: #f40000;
+	color: #fff;
+	font-size: 25px;
+    text-align: center;
+    transition: .5s;
+}
+
+#btn_cocacola:hover{
+    background-color: white;
+    color:black;
+    border: 1px solid #000;
+}
+
+#btn_cocacola:hover i{
+    color:#f40000;
+    transform: scale(.5);
+}
+
+#btn_cocacola:active{
+    background-color: none;
+    color: white;
+    border: 0px;
+}
+
+#btn_cocacola:active i{
+    transform: scale(1);
+    color: black;
+}
+
+/* apple */
+
+#btn_apple{
+    display: block;
+    width: 100px;
+    height: 100px;
+    text-decoration: none;
+    background-color:	#A2AAAD;
+    color: white;
+    box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 35px;
+}
+
+#btn_apple i{
+    transform: scale(4);
+}
+
+#btn_apple:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a2aaad+0,515556+77,515556+100 */
+background: #a2aaad; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #a2aaad 0%, #515556 77%, #515556 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #a2aaad 0%,#515556 77%,#515556 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #a2aaad 0%,#515556 77%,#515556 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a2aaad', endColorstr='#515556',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+box-shadow: 0 0 8px black;
+text-shadow: 0 0 8px white;
+}
+
+#btn_apple:active {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+77,ffffff+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #ffffff 0%, #ffffff 77%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 0%,#ffffff 77%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #ffffff 0%,#ffffff 77%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    color: white;
+    box-shadow: 0 0 15px #A2AAAD;
+    text-shadow: 0 0 12px #A2AAAD;
+}
+
+/* ideo */
+
+#btn_ideo{
+    font-family: museo, serif;
+    font-weight: 300;
+    font-size: 60px;
+    display: block;
+    text-decoration: none;
+	margin-top: 40px;
+	padding-top: 35px;
+    text-align: center;
+    color: #68C8C6;
+    line-height: 50px;
+    transition: all .5s;
+    width: 200px;
+	height: 200px;
+    margin-left: 25px;
+}
+
+.top{
+    letter-spacing: 16px;
+    margin-left: 17px;
+    color: #FE5E3D;
+}
+
+#btn_ideo:hover {
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #FE5E3D;
+    transition: .5s;
+}
+
+#btn_ideo:hover .top{
+    color: #68C8C6;
+}
+
+/* instagram */
+
+#btn_instagram{
+    display: block;
+    color:#515BD4;
+    margin: auto;
+    margin-top: 35px;
+    text-align: center;
+    padding-top: 7px;
+    font-family: franklin-gothic-atf, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+    transition: .5s;
+}
+
+#btn_instagram:hover{
+    color: white;
+    transition: 0s;
+}
+
+.fab.fa-instagram-square{
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding:0;
+}
+
+#btn_instagram:hover .fab.fa-instagram-square {
+    transform: scale(1);
+    font-size: 72px;
+    background: -webkit-linear-gradient(#FEDA77, #F58529, #DD2A7B, #8134AF, #515BD4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: .75s;
+}
+
+#btn_instagram:active{
+    color: #515BD4;
+    transition: 0s;
+}
+
+/* pottermore */
+
+#btn_pottermore{
+    font-family: sofia-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: block;
+    background-color: #6b63b5;
+    color: white;
+    text-decoration: none;
+	margin-top: 100px;
+	padding-top: 20px;
+    text-align: center;
+    width: 175px;
+	height: 60px;
+    margin-left: 40px;
+    box-sizing: border-box;
+	border-radius: 20px;
+    transition: all .5s;
+}
+
+.fas.fa-wind{
+    transform: translate( 2px, -11px) rotate(-45deg);
+}
+
+.fas.fa-magic{
+    transform: translate(5px, 5px) rotate(-10deg);
+}
+
+#btn_pottermore:hover{
+    background-color: #554e92;
+}
+
+@keyframes wind {
+    from { transform: rotate(-7deg); }
+    33% { transform: rotate(4deg); }
+    66% { transform: rotate(-4deg); }
+    to { transform: rotate(7deg); }
+  }
+
+  #btn_pottermore:hover .fa-wind::before{
+    display: block;
+    transform-origin: center bottom;
+    animation-name: wind;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes bigwind {
+    from { transform: rotate(-10deg); }
+    33% { transform: rotate(2deg); }
+    66% { transform: rotate(-2deg); }
+    to { transform: rotate(10deg); }
+  }
+
+  #btn_pottermore:active .fa-wind::before{
+    display: block;
+    transform-origin: center bottom;
+    animation-name: bigwind;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#btn_pottermore:active .fa-wind{
+    transform: scale(1.5) translate( 2px, -11px) rotate(-45deg);
+    transition: .5s;
+}
+
+/* exploding kittens */
+
+#btn_explodingkittens{
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(255, 162, 146);
+    background-color: #dc2626;
+    display: block;
+    text-decoration: none;
+	margin-top: 77px;
+	padding-top: 20px;
+    text-align: center;
+    width: 100px;
+	height: 100px;
+    margin-left: 80px;
+    box-sizing: border-box;
+	border-radius: 50px;
+    transition: all .75s;
+}
+
+#btn_explodingkittens:hover{
+    box-shadow: 0 0 0 5px #f7420b, 0 0 0 13px #ff6600,0 0 0 30px rgb(255, 211, 13);
+    letter-spacing: 1.25px;
+}
+
+#btn_explodingkittens:active{
+    box-shadow: 0 0 0 8px #f7420b, 0 0 0 18px #ff6600,0 0 0 35px rgb(255, 211, 13), 0 0 0 50px rgb(31, 29, 139), 0 0 0 70px rgb(30, 0, 87), 0 0 0 95px rgb(39, 0, 65);
+    letter-spacing: 3px;
+}
+
+/* the new yorker */
+
+#btn_newyorker{
+    font-family: adobe-caslon-pro, serif;
+    font-size: 30px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: black;
+    margin-top: 100px;
+    transition: .25s;
+}
+
+#btn_newyorker:hover{
+    color: rgb(107, 95, 95);
+    font-style: italic;
+}
+
+#btn_newyorker:hover .cap{
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* old navy */
+
+#btn_oldnavy{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    appearance: none;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    white-space: nowrap;
+    font-weight: 700;
+    height: 44px;
+    display: flex;
+    margin: 0px auto 1rem;
+    width: 90%;
+    text-align: center;
+    box-sizing: border-box;
+    letter-spacing: 0px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 1rem 0px;
+    color: rgb(0, 55, 100);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 55, 100);
+    border-radius: 8px;
+    margin-top: 100px;
+    transition: .5s;
+}
+
+#btn_oldnavy:hover{
+    color:white;
+    background-color:rgb(0, 55, 100);
+}
+
+/* tonight show */
+
+#btn_thetonightshow{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    background-color: rgb(21, 90, 146);
+    color: white;
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+	border-radius: 50px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    margin-top: 80px;
+    transition: .3s;
+    font-size: 18px;
+
+}
+
+#btn_thetonightshow:hover{
+    background-color:rgb(16, 81, 134);
+    width: 120px;
+    height: 120px;
+    box-sizing: border-box;
+	border-radius: 60px;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    margin-top: 70px;
+    font-size: 18px;
+    transition: .3s;
+}
+
+/* st jude */
+
+#btn_stjude{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    display: block;
+    background: #d11947;
+    border: 1px solid;
+    border-color: #d11947;
+    color: #fff;
+    cursor: pointer;
+    transition: all .25s ease-in-out;
+    border-bottom-width: 3px;
+    border-bottom-color: #a31438;
+    box-sizing: border-box;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
+    height: 30px;
+    width: 200px;
+    padding-top: 5px;
+    margin-top: 110px;
+    margin-left: 30px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+#btn_stjude:hover{
+    background: #e92f5e;
+}
+
+#btn_stjude:active{
+    color: #e92f5e;
+    background: white;
+}
+
+/* nike */
+
+#btn_nike{
+    font-family: futura-pt-condensed, sans-serif;
+    font-size: 40px;
+    font-weight:900;
+    font-style: italic;
+    display: block;
+    color: black;
+    background: white;
+    border: 1px solid;
+    border-radius: 30px;
+    width: 150px;
+    margin-top: 100px;
+    margin-left: 50px;
+    transition: .5s;
+}
+
+#btn_nike:hover{
+    box-shadow: 0 0 8px rgb(189, 189, 189);
+    text-shadow: 0 0 8px rgb(189, 189, 189);
+}
+
+#btn_nike:active{
+    box-shadow: 0 0 8px rgb(209, 209, 209);
+    text-shadow: 0 0 8px rgb(155, 155, 155);
+    color: white;
+    background-color: black;
+}
+
+/* cartoon network */
+
+#btn_cartoonnetwork{
+    font-family: paralucent-stencil, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.letter{
+    display: block;
+    height: 40px;
+    width:40px;
+    background: black;
+    color: white;
+    margin:0;
+    text-decoration: none;
+    margin-left: 90px;
+    margin-top: 80px;
+    float: left;
+    padding-bottom: 30px;
+    transition: 1s;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+#N{
+    margin: 0;
+    color:black;
+    background-color: white;
+    margin-top: 80px;
+}
+
+#btn_cartoonnetwork:hover .letter{
+    background: white;
+    color: black;
+}
+
+#btn_cartoonnetwork:hover #N{
+    background: black;
+    color: white;
+}
+
+/* electra */
+
+#btn_electrabike{
+    font-family: brush-script-std, sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    display: block;
+    height: 35x;
+    width: 125px;
+    background-color: none;
+    color: #10A8BF;
+    transition: all 1s;
+    margin-top: 100px;
+}
+
+#btn_electrabike:hover{
+    margin-left: 65px;
+    color: #313131;
+}
+
+#btn_electrabike:active{
+    margin-left: 120px;
+    color: #68a05c;
+}
+
+/* us army */
+
+#btn_army{
+    font-family: 'Overpass', sans-serif;
+    color:#FFCB05;
+    font-weight: 900;
+    font-size: 25px;
+    display: block;
+    line-height: 20px;
+    letter-spacing: 12px;
+    height: 50px;
+    width: 225px;
+    padding-top: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 75px;
+    margin-left: 18px;
+
+}
+
+#btn_army:hover {
+    transition: .5s;
+    background-color: black;
+    padding-top: 30px;
+
+}
+
+#btn_army i{
+    transform: scale(.5);
+}
+
+#btn_army .text{
+margin-left:5px;
+}
+
+#btn_army:hover i{
+    color: black;
+    transition: .5s;
+    margin-top: 40px;
+}
+
+#btn_army:hover .text{
+    transition: .5s;
+}
+
+/* velocity */
+
+#btn_velocity{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-direction: normal;
+    box-sizing: inherit;
+    font-family: inherit;
+    margin: 0;
+    overflow: visible;
+    background: transparent;
+    line-height: inherit;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+    background-color: #ee2e24;
+    border: none;
+    border-radius: 4px;
+    padding: .5em .8em;
+    color: #fff;
+    font-size: 1.4rem;
+    transition: background-color .25s ease-in-out,box-shadow .25s ease-in-out,opacity .25s ease-in-out,border-color .25s ease-in-out,color .25s ease-in-out;
+    -webkit-appearance: button;
+    margin-top: 90px;
+}
+
+@keyframes shake {
+    from { transform: rotate(-2deg); }
+    33% { transform: rotate(2deg); }
+    66% { transform: rotate(-2deg); }
+    to { transform: rotate(2deg); }
+  }
+
+#btn_velocity:hover {
+    background-color: white;
+    border: 1px solid #ee2e24;
+    color: #ee2e24;
+      transform-origin: center bottom;
+      animation-name: shake;
+      animation-duration: 0.25s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+}
+
+/* tesla */
+
+@keyframes type{ 
+    from {
+        width: 0;
+      }
+      to {
+        width: 105px;
+      }
+  } 
+
+#btn_tesla{
+    display: block;
+    font-family: 'Orbitron', sans-serif;    color: #e82127; 
+    font-size: 25px;
+    width: 105px;
+    height:30px;
+    margin-top: 110px;
+    margin-left: 70px;
+    letter-spacing: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: type 2s; 
+    animation-iteration-count: infinite;
+	animation-direction:alternate;
+}
+
+#btn_tesla:hover{
+    background-color: #e82127;
+    transition: 1s;
+    animation: type 2s steps(60,end);
+}
+
+#btn_tesla:active{
+    background-color: white;
+    color: white;
+    transition: .25s;
+}
+
+/* garden */
+
+#btn_mobotanicalgarden{
+    color: #97a76f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    width: 175px;
+    height: 30px;
+    background-color:#636b4f;
+    padding-top: 8px;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 45px;
+    transition: .5s;
+}
+
+#btn_mobotanicalgarden .MO{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 900;
+}
+
+#btn_mobotanicalgarden:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    letter-spacing: .25px;
+    font-size: 15px;
+    font-style: italic;
+    width: 180px;
+    margin-left: 42.5px;
+    color: #636b4f;
+    background-color: #97a76f;
+    transition: .5s;
+}
+
+/* michael kors */
+
+#btn_mk{
+    font-family: 'Rubik', sans-serif;
+    font-size: 65px;
+    padding-top: 1px;
+    letter-spacing: -13px;
+    color: #814855;
+    font-weight: 700;
+    transition: .5s;
+    display: block;
+    width: 82px;
+    height: 82px;
+    border-radius: 60px;
+    background-color: thistle;
+    margin-top: 80px;
+    margin-left: 80px;
+    text-indent: 20px;
+    border: 2px solid thistle;
+
+}
+
+#btn_mk:hover{
+    color: white;
+    transition: 1s;
+    text-indent: -14px;
+}
+
+#btn_mk:active{
+    background-color: white;
+    border: 2px solid white;
+    transition: .5s;
+    color: rgb(233, 214, 233);
+}
+
+/* bissinger */
+
+#btn_bissingers{
+    font-family: luke-medium-400, sans-serif;font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    color: #402e20;
+    background-color: #c09620;
+    display: block;
+    margin-top: 115px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+#btn_bissingers:hover{
+    font-family: luke-medium-200, sans-serif;font-weight: 200;
+    font-style: normal;
+    color: #c09620;
+    background-color: #402e20;
+    transition: .5s;
+}
+
+#btn_bissingers:active{
+    color:#5f432e;
+    transition: .5s;
+}
+
+/* npr */
+
+@keyframes backgroundColor {
+	0% {
+		background: #D62021;
+	}
+	50% {
+		background: black;
+	}
+	100% {
+		background:  #4C85C5;
+	}
+}
+
+#btn_npr{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 15px;
+    text-align: center;
+    width: 140px;
+    height: 75px;
+    display: block;
+    text-indent: 10px;
+    padding-bottom: 5px;
+    animation-name: backgroundColor;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate-reverse;
+	animation-timing-function: linear; 
+    margin-top: 90px;
+    margin-left: 60px;
+    transition: .5s;
+}
+
+@keyframes textcolor {
+	0% {
+		color: #D62021;
+	}
+	50% {
+		color: black;
+	}
+	100% {
+		color:  #4C85C5;
+	}
+}
+
+#btn_npr:hover{
+    transition: .5s;
+    animation-name: textcolor;
+    animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate-reverse;
+	animation-timing-function: linear; 
+    background-color: white;
+}
