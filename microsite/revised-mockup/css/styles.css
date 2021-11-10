@@ -1,0 +1,12 @@
+img{
+    width: 100%;
+    border: solid 2px cornflowerblue;
+}
+
+body{
+    margin: 5%;
+}
+
+.mobile{
+    width:30%;
+}
