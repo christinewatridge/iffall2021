@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cat Website - Superstitions & Rituals</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scaled=1.0">
+        <link rel="stylesheet" href="https://use.typekit.net/ywb5lay.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+
+        <script>
+
+			$( document ).ready(function() {
+
+            $( ".cross" ).hide();
+            $( ".menu" ).hide();
+            $( ".hamburger" ).click(function() {
+            $( ".menu" ).slideToggle( "slow", function() {
+            $( ".hamburger" ).hide();
+            $( ".cross" ).show();
+            });
+            });
+            
+            $( ".cross" ).click(function() {
+            $( ".menu" ).slideToggle( "slow", function() {
+            $( ".cross" ).hide();
+            $( ".hamburger" ).show();
+            });
+            });
+            
+            });
+
+		</script>
+        
+    </head>
+    <body>
+        <header>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html" class="big">CAts</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="characteristics.html">Characteristics</a></li>
+                    <li><a href="senses.html">Senses</a></li>
+                    <li><a href="behavior.html">Behavior</a></li>
+                    <li><a href="history-mythology.html">History + Mythology</a></li>
+                    <li><a href="superstitions-rituals.html"> Superstitions + Rituals</a></li>
+                </ul>
+
+            </nav>
+
+            <ham>
+                <button class="hamburger"><img src="photos/catfooter-13.png"></button>
+            <button class="cross"><img src="photos/catfooter-13.png"></button>
+
+            <hamburger class="menu">
+                <ul>
+                   
+                        <li><a href="index.html" class="selected">HomE</a></li>
+                        <li><a href="characteristics.html">cHaractErisTics</a></li>
+                        <li><a href="senses.html">SenSEs</a></li>
+                        <li><a href="behavior.html">BEhaVior</a></li>
+                        <li><a href="history-mythology.html">HistoRY + mytHOlOgy</a></li>
+                        <li><a href="superstitions-rituals.html"> sUpersTiTions + RituaLs</a></li>
+                </ul>
+            </hamburger>
+            </ham>
+
+        </header>
+
+        <div class="sources">
+            <sources>
+            <h2>ImAgEs</h2>
+            <p>
+                <a href="https://www.123rf.com/photo_93241443_cute-cats-collection-vector-icons-hand-drawn-illustrations.html" target="_blank">Cat head illustrations</a>
+                <br>
+                <a href="https://www.istockphoto.com/vector/egyptian-cats-gm167587628-17728688" target="_blank">Egyptian cat</a>
+                <br>
+                <a href="https://www.dreamstime.com/seamless-pattern-based-symbols-ancient-egypt-cats-lotus-flowers-camels-buffaloes-more-seamless-pattern-based-image179336848" target="_blank">Egyptian cat pattern</a>
+                <br>
+                <a href="https://image.shutterstock.com/image-vector/collection-cute-funny-cats-sitting-260nw-1458009629.jpg" target="_blank">Cat collection</a>
+                <br>
+                <a href="https://www.vectorstock.com/royalty-free-vector/stylized-cartoon-cat-skull-head-vector-35613198" target="_blank">Cat skull</a>
+                <br>
+                <a href="https://www.pixtastock.com/illustration/54778978" target="_blank">Cat heads border</a>
+                <br>
+                <a href="https://i.pinimg.com/736x/4d/02/bb/4d02bbe6f021f5f20bf39e263c8893ed.jpg" target="_blank">Cat paws</a>
+                <br>
+                <a href="https://www.istockphoto.com/br/vetor/gatos-de-bruxas-vector-ilustra%C3%A7%C3%A3o-m%C3%ADstico-car%C3%A1ter-familiar-gm1095071484-293935342" target="_blank">More cats</a>
+                <br>
+                <a href="https://thumbs.dreamstime.com/b/vector-illustration-horizontally-seamless-fire-pattern-vector-vector-illustration-horizontally-seamless-fire-pattern-vector-166511069.jpg" target="_blank"> Fire pattern</a>
+                <br>
+                <a href="https://www.canstockphoto.com/cute-yoga-cat-isolated-on-white-73379785.html" target="_blank">Yoga cat</a>
+                </p>
+
+                <br>
+                <h2>cOntEnt</h2>
+            <p>
+                <a href="https://en.wikipedia.org/wiki/Cat " target="_blank">Cat Wikipedia</a>
+            </p>
+            </sources>
+        </div>
+        
+        <footer>
+            <footer-text>Designed by Christine Watridge for Interaction Foundations Fall 2021</footer-text>
+            <footer-text-right><a href="sources.html" >soUrcEs</a>
+            </footer-text-right>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cat Website - Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scaled=1.0">
+        <link rel="stylesheet" href="https://use.typekit.net/ywb5lay.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+        
+        <header>
+            <button class="hamburger">&#9776;</button>
+            <button class="cross">&#735;</button>
+        </header>
+  
+        <div class="menu">
+            <ul>
+                <li><a href="index.html" class="big">CAts</a></li>
+                    <li><a href="index.html" class="selected">HomE</a></li>
+                    <li><a href="characteristics.html">cHaractErisTics</a></li>
+                    <li><a href="senses.html">SenSEs</a></li>
+                    <li><a href="behavior.html">BEhaVior</a></li>
+                    <li><a href="history-mythology.html">HistoRY + mytHOlOgy</a></li>
+                    <li><a href="superstitions-rituals.html"> sUpersTiTions + RituaLs</a></li>
+            </ul>
+        </div> 
+
+        <script>
+        $( document ).ready(function() {
+
+            $( ".cross" ).hide();
+            $( ".menu" ).hide();
+            $( ".hamburger" ).click(function() {
+            $( ".menu" ).slideToggle( "slow", function() {
+            $( ".hamburger" ).hide();
+            $( ".cross" ).show();
+            });
+            });
+            
+            $( ".cross" ).click(function() {
+            $( ".menu" ).slideToggle( "slow", function() {
+            $( ".cross" ).hide();
+            $( ".hamburger" ).show();
+            });
+            });
+            
+            });
+
+        </script>
+
+    </html>
