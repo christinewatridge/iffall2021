@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html class="lightbackground">
+    <head>
+        <title>Cat Website - Superstitions & Rituals</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scaled=1.0">
+        <link rel="stylesheet" href="https://use.typekit.net/ywb5lay.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+
+        <script>
+
+			$( document ).ready(function() {
+
+            $( ".cross" ).hide();
+            $( ".menu" ).hide();
+            $( ".hamburger" ).click(function() {
+            $( ".menu" ).slideToggle( "slow", function() {
+            $( ".hamburger" ).hide();
+            $( ".cross" ).show();
+            });
+            });
+            
+            $( ".cross" ).click(function() {
+            $( ".menu" ).slideToggle( "slow", function() {
+            $( ".cross" ).hide();
+            $( ".hamburger" ).show();
+            });
+            });
+            
+            });
+
+		</script>
+ 
+    </head>
+    <body>
+        <header>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html" class="big">CAts</a></li>
+                    <li><a href="characteristics.html">cHaractErisTics</a></li>
+                    <li><a href="senses.html">SenSEs</a></li>
+                    <li><a href="behavior.html">BEhaVior</a></li>
+                    <li><a href="history-mythology.html">HistoRY + mytHOlOgy</a></li>
+                    <li><a href="superstitions-rituals.html"> sUpersTiTions + RituaLs</a></li>
+                </ul>
+
+            </nav>
+
+            <ham>
+                <button class="hamburger"><img src="photos/MENU-14.png"></button>
+            <button class="cross"><img src="photos/MENU-14.png"></button>
+
+            <hamburger class="menu">
+                <ul>
+                   
+                        <li><a href="index.html" class="selected">HomE</a></li>
+                        <li><a href="characteristics.html">cHaractErisTics</a></li>
+                        <li><a href="senses.html">SenSEs</a></li>
+                        <li><a href="behavior.html">BEhaVior</a></li>
+                        <li><a href="history-mythology.html">HistoRY + mytHOlOgy</a></li>
+                        <li><a href="superstitions-rituals.html"> sUpersTiTions + RituaLs</a></li>
+                </ul>
+            </hamburger>
+            </ham>
+        
+        </header>
+
+        <div>
+        <section class="row">
+            <content class="rituals">
+                <h1 class="sectiontitle" id="myth">sUpErstitiOns + RitUals</h1>
+                <img class="smallplay" src="photos/ritualcat-15.png">
+            <p>
+                Many cultures have negative superstitions about cats. An example would be the belief that encountering a black cat ("crossing one's path") leads to bad luck, or that cats are witches' familiars used to augment a witch's powers and skills. The killing of cats in Medieval Ypres, Belgium, is commemorated in the innocuous present-day Kattenstoet (cat parade).In mid-16th century France, cats would be burnt alive as a form of entertainment. According to Norman Davies, the assembled people "shrieked with laughter as the animals, howling with pain, were singed, roasted, and finally carbonized".
+            </p>
+            <p>
+                James Frazer wrote that "It was the custom to burn a basket, barrel, or sack full of live cats, which was hung from a tall mast in the midst of the bonfire; sometimes a fox was burned. The people collected the embers and ashes of the fire and took them home, believing that they brought good luck. The French kings often witnessed these spectacles and even lit the bonfire with their own hands. In 1648 Louis XIV, crowned with a wreath of roses and carrying a bunch of roses in his hand, kindled the fire, danced at it and partook of the banquet afterwards in the town hall. But this was the last occasion when a monarch presided at the midsummer bonfire in Paris. At Metz midsummer fires were lighted with great pomp on the esplanade, and a dozen cats, enclosed in wicker cages, were burned alive in them, to the amusement of the people. Similarly at Gap, in the department of the Hautes-Alpes, cats used to be roasted over the midsummer bonfire."
+            </p> 
+            <p>
+                According to a myth in many cultures, cats have multiple lives. In many countries, they are believed to have nine lives, but in Italy, Germany, Greece, Brazil and some Spanish-speaking regions, they are said to have seven lives, while in Arabic traditions, the number of lives is six. The myth is attributed to the natural suppleness and swiftness cats exhibit to escape life-threatening situations. Also lending credence to this myth is the fact that falling cats often land on their feet, using an instinctive righting reflex to twist their bodies around. Nonetheless, cats can still be injured or killed by a high fall.
+            </p>
+            </content>
+            <images>
+                <img src="photos/ritualcat-15.png">
+            </images>
+        </section>
+       
+        </div>
+        <fire>
+            <img src="photos/flames-16.png">
+        </fire>
+
+        <footer>
+            <footer-text>Designed by Christine Watridge for Interaction Foundations Fall 2021</footer-text>
+            <footer-text-right><a href="sources.html">soUrcEs</a>
+            </footer-text-right>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cat Website - Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scaled=1.0">
+        <link rel="stylesheet" href="https://use.typekit.net/ywb5lay.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+
+        <script>
+
+			$( document ).ready(function() {
+
+            $( ".cross" ).hide();
+            $( ".menu" ).hide();
+            $( ".hamburger" ).click(function() {
+            $( ".menu" ).slideToggle( "slow", function() {
+            $( ".hamburger" ).hide();
+            $( ".cross" ).show();
+            });
+            });
+            
+            $( ".cross" ).click(function() {
+            $( ".menu" ).slideToggle( "slow", function() {
+            $( ".cross" ).hide();
+            $( ".hamburger" ).show();
+            });
+            });
+            
+            });
+
+		</script>
+        
+    </head>
+    <body>
+        <header>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html" class="big">CAts</a></li>
+                    <li><a href="characteristics.html">cHaractErisTics</a></li>
+                    <li><a href="senses.html">SenSEs</a></li>
+                    <li><a href="behavior.html">BEhaVior</a></li>
+                    <li><a href="history-mythology.html">HistoRY + mytHOlOgy</a></li>
+                    <li><a href="superstitions-rituals.html"> sUpersTiTions + RituaLs</a></li>
+                </ul>
+
+            </nav>
+
+            <ham>
+                <button class="hamburger"><img src="photos/MENU-14.png"></button>
+            <button class="cross"><img src="photos/MENU-14.png"></button>
+
+            <hamburger class="menu">
+                <ul>
+                        <li><a href="index.html" class="selected">HomE</a></li>
+                        <li><a href="characteristics.html">cHaractErisTics</a></li>
+                        <li><a href="senses.html">SenSEs</a></li>
+                        <li><a href="behavior.html">BEhaVior</a></li>
+                        <li><a href="history-mythology.html">HistoRY + mytHOlOgy</a></li>
+                        <li><a href="superstitions-rituals.html"> sUpersTiTions + RituaLs</a></li>
+                </ul>
+            </hamburger>
+            </ham>
+             
+            </header>
+
+            <div>
+            <intro>
+                <h1>THe wiDe wOrLd oF cAtS</h1>
+                <img class="laptopview" src="photos/catheads-09.png">
+                <img class="mobilehome" src="photos/catheadsmobile1-10.png">
+            </intro>
+            <section class="row">
+                <images>
+                <img id="bigcat" src="photos/cathomepage-12.png">
+                </images>
+            <intro-content>
+                <p>The cat <i><strong>(Felis catus)</strong></i> is a domestic species of small carnivorous mammal. It is the only domesticated species in the family Felidae and is often referred to as the domestic cat to distinguish it from the wild members of the family. A cat can either be a house cat, a farm cat or a feral cat; the latter ranges freely and avoids human contact. Domestic cats are valued by humans for companionship and their ability to kill rodents. About 60 cat breeds are recognized by various cat registries.
+                </p>
+                <p>The cat is similar in anatomy to the other felid species: it has a strong flexible body, quick reflexes, sharp teeth and retractable claws adapted to killing small prey. Its night vision and sense of smell are well developed. Cat communication includes vocalizations like meowing, purring, trilling, hissing, growling and grunting as well as cat-specific body language. A predator that is most active at dawn and dusk (crepuscular), the cat is a solitary hunter but a social species. It can hear sounds too faint or too high in frequency for human ears, such as those made by mice and other small mammals. It secretes and perceives pheromones.
+                </p>
+                <img id="mobilecat" src="photos/cathomepage-12.png">
+            </intro-content>
+            
+            </section>
+        </div>
+
+        <fire>
+            <img src="photos/pawspattern-29.png">
+        </fire>
+        
+        <footer>
+            <footer-text>Designed by Christine Watridge for Interaction Foundations Fall 2021</footer-text>
+            <footer-text-right><a href="sources.html">soUrcEs</a>
+            </footer-text-right>
+        </footer>
+    </body>
+</html>
